@@ -198,10 +198,17 @@ background-image:url("imagenes/seccion1/3.png");
 .main__center--img img{
 	width:100%;
 	height: 100%:;}
+<<<<<<< HEAD
 
 
 
 
+=======
+
+
+
+
+>>>>>>> b739a5885c971750b5d812aad23e7387b827329d
 /* botones main */
 
 			.main__center--botones--Ambos--Android input {
@@ -351,9 +358,15 @@ background-image:url("imagenes/seccion1/3.png");
 			opacity: 1;
 				transition-delay: 0.25s;
 			}	
+<<<<<<< HEAD
 
 			/*Seecion 2-2*/
 
+=======
+
+			/*Seecion 2-2*/
+
+>>>>>>> b739a5885c971750b5d812aad23e7387b827329d
 .main__seccion2-2{
 	display: flex;
 	flex-direction: column;
@@ -469,11 +482,19 @@ background-image:url("imagenes/seccion1/3.png");
 			flex-direction: column;
 			justify-content: center;
 			text-align: center;
+<<<<<<< HEAD
 
 			
 		}
 		
 
+=======
+
+			
+		}
+		
+
+>>>>>>> b739a5885c971750b5d812aad23e7387b827329d
 				.main__seccion3--center--todo--textos{
 					display: flex;
 					flex-direction: column;
@@ -506,6 +527,7 @@ background-image:url("imagenes/seccion1/3.png");
 				.main__seccion3--center--todo--textos p[data-scroll="in"]{
 					opacity: 1;
 					transition-delay: 0.25s;
+<<<<<<< HEAD
 				}
 
 				/*fin transiotio textos*/	
@@ -514,6 +536,16 @@ background-image:url("imagenes/seccion1/3.png");
 					justify-content: center;
 				}
 
+=======
+				}
+
+				/*fin transiotio textos*/	
+				.main__seccion3--center--todo--suscripcion{
+					display: flex;
+					justify-content: center;
+				}
+
+>>>>>>> b739a5885c971750b5d812aad23e7387b827329d
 
 
 				.main__seccion3--center--todo--suscripcion--button input{
@@ -616,6 +648,14 @@ background-image:url("imagenes/seccion1/3.png");
 		.aside__texto--parrafo p{
 			opacity: 0;
 			transition: 1s;}
+<<<<<<< HEAD
+=======
+
+		.aside__texto--parrafo p [data-scroll="in"]{
+					opacity: 1;
+					transition-delay: 0.25s;
+				}*/
+>>>>>>> b739a5885c971750b5d812aad23e7387b827329d
 
 		.aside__texto--parrafo p [data-scroll="in"]{
 					opacity: 1;
@@ -623,15 +663,22 @@ background-image:url("imagenes/seccion1/3.png");
 				}*/
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b739a5885c971750b5d812aad23e7387b827329d
 .aside__img {
 	display: flex;
 	width: 50%;
 }
 
 .aside__img img{
+<<<<<<< HEAD
 	
 	width: 50%;
+=======
+	size: all;
+>>>>>>> b739a5885c971750b5d812aad23e7387b827329d
 
 
 }
