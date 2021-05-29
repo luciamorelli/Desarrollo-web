@@ -5,9 +5,9 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estilos.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/bb0c951223.js" crossorigin="anonymous"></script>
 		<title> MyShops </title>
 		<meta name="keywords" content="aplicacion, ahorrar, comparar, supermercados, compra, online"/>
 		<meta name="description" content="Primer comparador de precios de productos de supermercados. Con Myshops podes realizar tus compras al mejor precio y desde la comodidad de tu casa"/>
@@ -16,16 +16,17 @@
 	</head>
 	<body>
 		
-		<header> <!--Barra de menu de la pagina fija-->
+		<header> 
 			<div class="header">
-				<div class="header__logo">
-					<a href="index.html"><img src="imagenes/logo web.png"></a>
-				</div>	
+				<div id="particles-js"></div>
+				
 				<div class="header__nav">
+
 					<nav>
 						<ul>
-		                    <li><a href="index.html">Home</a></li>
-		   
+		                    <li ><a href="index.html">Home</a></li>
+		                    <li><a href=#main__seccion2>Features</a></li>
+							<li class="header__nav--logo"><a href="index.html"><img src="imagenes/logo web.png"></a>
 		                    <li><a href="#main__seccion3">Registra tu negocio</a></li>
 		                    
 		                    <li><a href="descargalaapp.html">Descarga la app</a> </li>
@@ -34,12 +35,27 @@
 					</nav>
 					
 				</div>
+
+			<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: black !important;">
+					  Menu</Menu>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+					  <li><a class="dropdown-item" href="#main__seccion2">Features</a></li>
+					  <li><a class="dropdown-item" href="#main__seccion3">Registra tu negocio</a></li>
+					  <li><a class="dropdown-item" href="descargalaapp.html">Descarga la app</a></li>
+					</ul>
+				  </div>
+
 			</div>
 		</header>
 
 		<main>
 		<!--Seecion 1-->	
+			
+		
 			<div class="main">
+				
 				<div class="main__seccion1">
 				
 				<div class="main__left"></div>
@@ -54,31 +70,37 @@
 							<div class="main__center--botones--Ambos--Android">
 			                		<h2>Android</h2>
 			                    	<p> Si tenes PlayStore descarga la aplicacion acá </p>
-			                   		<a href="https://play.google.com/store?hl=es_AR&gl=US"> <input  type="button" value="Descarga Android"></a>
+			                   		<a href="https://play.google.com/store?hl=es_AR&gl=US"> <input  type="button" value="Download"></a>
 			                </div>
 							<div class="main__center--botones--Ambos--IOS">
 				                	<h2>IOS</h2>
 				                    <p>Si tenes AppStore descarga la aplicacion aca</p>
-				                   <a href="https://www.apple.com/la/app-store/"><input  type="button" value="Descarga IOS"> </a> 
+				                   <a href="https://www.apple.com/la/app-store/"><input  type="button" value="Download"> </a> 
 			               	</div>
-		                </div>					
+		                </div>
+		                <div id="button__mov"> 
+					<a href="#main__seccion2"><i class="fas fa-chevron-down" style="color: white;" style="size: 14px;" ></i></a>
+						</div>					
+					
 					</div>
-
 				</div>
 				
 				<div class="main__right"></div>
-
-				
-
 				</div>
+			</div>
 		<!--Seecion 2-->
 		<div id="main__seccion2"> 
 			<div class="main__seccion2">
-				<div class="main__seccion2--espacio"> </div>
+
 				<div class="main__seccion2--todo">
+				
 				
 				<!--Seecion 2-1-->
 				<div class="main__seccion2-1">
+					
+					<div class="main__seccion2--espacio">
+						<img src="imagenes/pig.png">
+					</div>
 
 				<div class="main__seccion2--texto"> 
 					<div class="main__seccion2--texto--titulo">
@@ -90,27 +112,55 @@
 	                        <p> En la sección COMPARÁ obtené en qué supermercado tu compra total es más económica.</br>
 	                        Para ello añadí al carrito todos los productos que deseas consumir y en cuestión de segundos MyShops te dice dónde podes encontrar el mejor precio de tu compra. </p>
                     </div>         
-                </div>
+					
+					<div id="button__mov"> 
+						<a href="#main__seccion2-2"><i class="fas fa-chevron-down" style="color: white;" style="size: 14px;" ></i></a>
+					</div>
+				</div>
+					
             	</div>
+
+				
                       
                 <!--Seecion 2-2-->
-				<div class="main__seccion2-2">    
+                <div id="main__seccion2-2">
+				<div class="main__seccion2-2"> 
+					<div class="main__seccion2--espacio">
+						<img src="imagenes/basket.png">
+					</div>   
 	                    <div class="main__seccion2--texto--columnas--dos">
 	                    	<h2> Realizá tus compras desde tu casa</h2>                      
 	                        <p>En la sección RECORRÉ podés encontrar las tiendas online de todos los supermercados de la ciudad.</br>
 	                        Entrá al negocio de tu preferencia y encontrá sus productos, precios y promociones.</p>
 		
 	    				</div>
+
+						<div id="button__mov"> 
+							<a href="#main__seccion2-3"><i class="fas fa-chevron-down" style="color: white;" style="size: 14px;" ></i></a>
+						</div>
+    			</div>
     			</div>
 
+    			
+
     			<!--Seecion 2-3-->
-				<div class="main__seccion2-3">	
+    			<div id="main__seccion2-3">
+				<div class="main__seccion2-3">
+					<div class="main__seccion2--espacio">
+						<img src="imagenes/money.png">
+					</div>	
 	    				<div class="main__seccion2--texto--columnas--tres">
 	    					<h2> Ahorrá tiempo y dinero </h2>
 	                       
 	                        <p> Con MyShops informarte de todas las ofertas y promociones disponibles para ahorrar cada vez más!</p>
 	    				       
 	    				</div>
+
+						<div id="button__mov"> 
+							<a href="#main__seccion3"><i class="fas fa-chevron-down" style="color: white;" style="size: 14px;" ></i></a>
+						</div>
+	    		</div>
+					
 	    		</div>		
 
 			</div>
@@ -129,8 +179,8 @@
 					<div class="main__seccion3--center--todo">
 						<div class="main__seccion3--center--todo--textos">
 							<h1>Querés tener una tienda en MyShops?</h1>
-							<p>Crea tu tienda y recibi tus pedidos por Whatssapp .</br> 
-		                    Contamos con un sistema de carga de datos muy sencillo y eficáz para simplificar sus transacciones diarias.</p>
+							<p>Crea tu tienda y recibi tus pedidos por Whatssapp</br> 
+		                    Contamos con un sistema de carga de datos muy sencillo y eficáz para simplificar sus transacciones diarias</p>
 							<h2>Dejanos tu mail y nos contactamos con vos!</h2>
 						</div>
 						
@@ -143,6 +193,10 @@
 							<input type="submit" value="Enviar">
 							</div>
 
+							<div id="button__mov"> 
+								<a href="#aside"><i class="fas fa-chevron-down" style="color: white;" style="size: 14px;" ></i></a>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -151,6 +205,7 @@
 		</main>
 
 		<aside>
+			<div id="aside">
 			<div class="aside"> 
 				<div class="aside__texto"> 
 					
@@ -160,7 +215,7 @@
 					
 					<div class="aside__texto--parrafo"> 
 						<p>Buenas a todxs!👋🏻
-							Nosotros somos los founders de MyShops.<br>
+							Nosotros somos los founders de MyShops<br>
 							✨Kevin, Lucía y José ✨<br>
 							“Muy contentos de trabajar juntos para brindarles una herramienta que facilite sus compras diarias🛒💥
 							<br> Estamos muy ansiosos por el lanzamiento 🚀📲”
@@ -176,16 +231,16 @@
 				</div>
 			</div>
 			</div>
-			
+		</div>
 		</aside>
 		
 
 
   <!-- Grid container -->
 
-<footer class="bg-dark text-center text-white" style="background-color: #000000";>
+<footer class="bg-dark text-center text-white" style="position: relative;";>
   <!-- Grid container -->
-  <div class="container p-4 pb-0">
+  <div class="container p-4 pb-0";>
     <!-- Section: Form -->
     <section class="form">
       <form action="">
@@ -203,8 +258,8 @@
           <div class="col-md-5 col-12">
             <!-- Email input -->
             <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example2" class="form-control" />
-              <label class="form-label" for="form5Example2">Email </label>
+              <input type="email" id="form5Example2" class="form-control" placeholder="EMAIL" />
+              
             </div>
           </div>
           <!--Grid column-->
@@ -266,9 +321,12 @@
 			ScrollOut ({
 				targets: 'h1,h2,p,input'
 
-					})
+				})
 		</script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
+		
+		<!--JS Particles.js-->
+		<script src="js/particles.min.js"></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>
