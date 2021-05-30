@@ -904,3 +904,22 @@ align-items: center;
 }
 }
 
+/*Header responsive- index*/
+.dropdown{
+	display: flex;
+	flex-direction:row;
+}
+.dropdown button{
+	width: 50%;
+}
+.header__logo--responsive{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+	height: auto;
+}
+.header__logo--responsive img{
+	width: 50%;
+	height: auto;
+}
+
